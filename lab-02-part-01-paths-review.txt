@@ -14,31 +14,33 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+cd
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+cd
 
 ==========
 3. Write the command that you would use to change to your Desktop folder.
 ----------
 
-
+cd
 
 ==========
 4. What's the absolute path to your home directory?
 ----------
 
-
+cd
+pwd
 
 ==========
 5. What's the absolute path to your Desktop directory?
 ----------
 
-
+cd desktop
+pwd
 
 ==========
 6. What's the absolute path to your Desktop directory?
@@ -49,18 +51,18 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
 ----------
-
+cd desktop
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
 ----------
 
-
+mkdir -p Desktop/stuff
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
 ----------
-
+mkdir ../more-stuff
 
 
 ==========
